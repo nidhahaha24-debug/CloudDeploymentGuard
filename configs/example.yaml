@@ -1,0 +1,17 @@
+environment: production
+
+server:
+  name: web-server
+  port: 22
+  public_access: true
+  encryption: false
+  https: false
+  health_check: false
+
+database:
+  engine: postgres
+  backup: false
+
+tags:
+  owner: ""
+  environment: production
